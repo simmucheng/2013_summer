@@ -41,7 +41,6 @@ int main()
                 #undef FIND
             }
             up[i]=sta+1;
-           // cout<<sta<<endl;
         }
         q.clear();
         q.push_back(-s[1]);
