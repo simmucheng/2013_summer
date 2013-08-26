@@ -97,6 +97,7 @@ void dfs(int deep)
         for(int jj=R[ii];jj!=ii;jj=R[jj])remove(xcol[jj]);
         dfs(deep+1);
         for(int jj=L[ii];jj!=ii;jj=L[jj])resume(xcol[jj]);
+        //顺序是相反的，因为在删除过程中一直在更新左边的L的值，如果按照原顺序的话，不能够还原。
     }
     resume(mark);
     return ;
