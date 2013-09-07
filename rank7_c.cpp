@@ -1,4 +1,4 @@
-http://172.16.120.250:8081/problem_show.php?pid=16867
+http://www.bnuoj.com/bnuoj/problem_show.php?pid=16867
 
 #include<cstdio>
 #include<algorithm>
